@@ -9,7 +9,7 @@ zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (de
 
   if (thsudo) {
      let msg = `*Zokou Super-User*\n
-     *Numero proprietaire\n* :
+     *Numero proprietaire\n* :242064206614
 - 🌟 @${conf.NUMERO_OWNER}
 
 ------ *Autre sudos* -----\n`
@@ -38,7 +38,7 @@ zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (de
     const vcard =
         'BEGIN:VCARD\n' + // metadata of the contact card
         'VERSION:3.0\n' +
-        'FN:' + conf.NOM_OWNER + '\n' + // full name
+        'FN:' + conf.NOM_OWNER + '\n' + // mj armel ✨🖤
         'ORG:undefined;\n' + // the organization of the contact
         'TEL;type=CELL;type=VOICE;waid=' + conf.NUMERO_OWNER + ':+' + conf.NUMERO_OWNER + '\n' + // WhatsApp ID + phone number
         'END:VCARD';
