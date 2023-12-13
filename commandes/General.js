@@ -38,9 +38,9 @@ zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (de
     const vcard =
         'BEGIN:VCARD\n' + // metadata of the contact card
         'VERSION:3.0\n' +
-        'FN:' + conf.NOM_OWNER + '\n' + // full name
+        'FN:' + conf.NOM_OWNER + '\n' + // mj armel ✨🖤
         'ORG:undefined;\n' + // the organization of the contact
-        'TEL;type=CELL;type=VOICE;waid=' + conf.NUMERO_OWNER + ':+' + conf.NUMERO_OWNER + '\n' + // WhatsApp ID + phone number
+        'TEL;type=CELL;type=VOICE;waid=' + conf.NUMERO_OWNER + ':+' + conf.NUMERO_OWNER + '\n' + // mj armel ✨🖤 :+242064206614
         'END:VCARD';
     zk.sendMessage(dest, {
         contacts: {
